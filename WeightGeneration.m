@@ -44,7 +44,8 @@ function theta = CalWeight1(thetaM, M, SampleNum)
 end
     
 function index = find_index_with_largest_angle (W1, W2)
-    Cosine    = 1 - pdist2(W2, W1, 'cosine');
+    %Cosine    = 1 - pdist2(W2, W1, 'cosine');
+    Cosine    = pdist2(W2, W1, 'cosine');    % Updated 22/03/03 
     Temp      = sort(Cosine,2, 'descend');
     [~, Rank] = sortrows(Temp);
     index     = Rank(1);
