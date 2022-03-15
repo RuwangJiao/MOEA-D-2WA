@@ -1,4 +1,5 @@
 # Two-type Weight Adjustments in MOEA/D for Highly Constrained Many-objective Optimization
+This is the matlab version of MOEA/D-2WA for constrained multi-objective optimization problems. The code is under the framework of PlatEMO.
 
 # Acknowledge
 Please kindly cite this paper in your publications if it helps your research:
